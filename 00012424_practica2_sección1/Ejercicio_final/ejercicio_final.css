@@ -1,0 +1,85 @@
+/* Estilos ejercicio final */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #202124;
+    background: #f4f7fb;
+}
+
+.top {
+    background: #16213e;
+    color: white;
+    padding: 14px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top nav a {
+    color: #cde;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.hero {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 36px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 8px 22px rgba(2, 6, 23, 0.12);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: #0b6bff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.works {
+    padding: 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.work {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(2, 6, 23, 0.06);
+    text-align: center;
+}
+
+.foot {
+    text-align: center;
+    padding: 16px;
+    color: #666;
+    margin-top: 18px;
+}
